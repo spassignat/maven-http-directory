@@ -1,9 +1,14 @@
 This library is an extension for maven. It allows to download artifact from 
-a basic http server, non maven compliant.
+a basic http server, non fully maven compliant which stores artifact 
+with the same path structure but without any index files. 
 
+This extension will attempt the download of 
+```com.example:my-artifact:1.2.3``` is 
+```<repository_url>/com/example/my-artifact/1.2.3/my-artifact-1.2.3.jar```
+# Maven compatibility
 It's build for maven 3.9
 
-[h1]How to use it[/h1]
+# How to use it
 Add an extension in your project:
 ```xml
 <build>
