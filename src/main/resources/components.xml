@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-set>
+	<components>
+		<component>
+			<role>org.apache.maven.artifact.repository.layout.ArtifactRepositoryLayout</role>
+			<role-hint>http-directory</role-hint>
+			<implementation>fr.exygen.maven.repository.HttpDirectory</implementation>
+			<description/>
+			<isolated-realm>false</isolated-realm>
+		</component>
+	</components>
+</component-set>
